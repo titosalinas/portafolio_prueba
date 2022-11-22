@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: #313131;
+}
+p{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    
+    color: rgba(176, 100, 0, 0.726);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    
+    ;
+    border-radius: 1px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(176, 100, 0);
+    border-radius: 10px;
+  }
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+nav a:hover{
+    color: rgb(244, 193, 126);
+}
+img{
+    width: 300px;
+    
+    display:block;
+    margin:auto;
+}
+h2{
+    
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(176, 100, 0);
+}
+h3{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(176, 100, 0, 0.726);
+}
+h4{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    
+    color: rgba(176, 100, 0, 0.726);
+}
+html{
+    scroll-behavior: smooth;
+}
+#inicio{
+    background-color: white;
+    
+    display: table-cell;
+    vertical-align: middle;
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
+#sobre-mi{
+    background-color: antiquewhite;
+    padding: 18%;
+
+}
+#estudios{
+    background-color: rgb(244, 193, 126);
+    padding: 7%;
+}
+#contac{
+    background-color: rgb(245, 164, 59);
+    padding: 18%;
+}
+nav a {
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100%;
+    padding: 7px;
+    padding-top: 15px;
+    
+    width: fit-content;
+  }
+
+a {
+    font-weight: 700;
+    font-size: 25px;
+    
+    color: rgba(225, 135, 18, 0.997);
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+    
+    
+    
+   
+  }
+a:hover{
+    color: rgba(96, 57, 7, 0.997);
+}
+nav a:hover{
+    
+    background-color: rgba(213, 151, 65, 0.3);
+    border-radius: 3px;
+    
+  }
+
+  .carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 15px;
+}
+
+#contac a{
+    color: white;
+}
+#contac a:hover{
+    color: rgba(96, 57, 7, 0.997);
+}
+.conteudo {
+    width: auto;
+    padding-top: 50px;
+}
+
+.card {
+    scroll-snap-align: start;
+    border-radius: 50px;
+    min-height: 100px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card:nth-child(1) {
+    background: linear-gradient(-229deg, rgb(176, 100, 0, 0.726), rgba(205, 117, 1, 0.726));
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(-229deg, rgba(205, 117, 1, 0.726), rgba(237, 135, 1, 0.726));
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(-229deg, rgba(237, 135, 1, 0.726), rgba(255, 159, 34, 0.726));
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(-229deg, rgba(255, 159, 34, 0.726), rgba(249, 168, 63, 0.726));
+}
+
+.card:nth-child(5) {
+    background: linear-gradient(-229deg, rgba(255, 159, 34, 0.726), rgba(193, 124, 33, 0.726));
+}
+
+.card:nth-child(6) {
+    background: linear-gradient(-229deg, rgba(193, 124, 33, 0.726), rgba(165, 103, 21, 0.726));
+}
+
+.card:nth-child(7) {
+    background: linear-gradient(-229deg, rgb(165, 103, 21, 0.726), rgba(145, 86, 10, 0.726));
+}
+.card:nth-child(8) {
+    background: linear-gradient(-229deg, rgba(145, 86, 10, 0.726), rgba(189, 112, 11, 0.726));
+}
+.card:nth-child(9) {
+    background: linear-gradient(-229deg, rgba(189, 112, 11, 0.726), rgba(218, 127, 7, 0.726));
+}
+.card:nth-child(10) {
+    background: linear-gradient(-229deg, rgba(218, 127, 7, 0.726), rgba(249, 142, 1, 0.726));
+}
+@media (max-width: 900px){
+    nav{
+        height: 150px;
+        width: 100%;
+        
+    }
+    
+}
+#formcontac{
+    background-color: rgb(246, 183, 101);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.espacio{
+    background-color: rgba(145, 86, 10, 0.726);
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 350px;
+    min-height: 55px;
+    margin: 10px;
+    color: white;
+}
+.espaciodos{
+    background-color: rgba(145, 86, 10, 0.726);
+    border-radius: 10px;
+    padding: 5px;
+    min-width: 350px;
+    min-height: 100px;
+    margin: 10px;
+    color: white;
+}
